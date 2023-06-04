@@ -2,8 +2,7 @@
 --са били пуснати на вода едновременно през 1927 г.
 --Имали са девет 16-инчови оръдия (bore) и водоизместимост от 34000
 --тона (displacement). Добавете тези факти към базата от данни.
-select * from classes
-    INSERT INTO SHIPS (NAME, CLASS, LAUNCHED)
+INSERT INTO SHIPS (NAME, CLASS, LAUNCHED)
 VALUES ('Nelson', 'Nelson', 1927), ('Rodney', 'Nelson', 1927)
 INSERT INTO CLASSES (NUMGUNS, BORE, DISPLACEMENT, CLASS, TYPE, COUNTRY)
 VALUES (9, 16, 34000, 'Nelson', 'bb', 'Gt.Britain')
